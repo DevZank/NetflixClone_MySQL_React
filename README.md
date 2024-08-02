@@ -4,9 +4,7 @@
 
 Este é o repositório do projeto Clone da Netflix, desenvolvido durante o curso **MySQL - Como Modelar um Banco de Controle de Séries Assistidas** da [DIO](https://dio.me). O projeto consiste em uma aplicação inspirada na plataforma de streaming Netflix, utilizando tecnologias modernas de frontend e backend para criar uma experiência completa e interativa.
 
-
 https://github.com/user-attachments/assets/07122efe-d31b-4d70-a44d-f753343b1a25
-
 
 ## 💻 Tecnologias utilizadas no projeto
 
@@ -27,4 +25,3 @@ https://github.com/user-attachments/assets/07122efe-d31b-4d70-a44d-f753343b1a25
 ## 🎨 Protótipo do projeto
 
 [Clique aqui](https://www.figma.com/design/PDgHLPSpldKShCLbNxUaKO/Projeto-Netflix-Clone?node-id=0-1&t=TskYozCVlvK0HIHB-1) para ir ao protótipo do projeto no Figma.
-

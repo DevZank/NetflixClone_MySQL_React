@@ -1,0 +1,191 @@
+.inner {
+  position: absolute;
+  bottom: 0;
+  padding-left: 57px;
+  width: 200vw;
+  height: 430px;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  cursor: auto;
+}
+
+.Hide {
+  display: none;
+}
+
+.item {
+  width: 400px;
+  height: 250px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: grab;
+  border-radius: 18px;
+  transform: scale(1) translateY(100px);
+
+  transition: all 0.3s ease-in;
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  &:hover {
+    transform: scale(1.2) translateY(-50px);
+    cursor: default;
+    margin: 0 100px;
+  }
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+
+.Background {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.NetflixContainer {
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  header {
+    display: flex;
+    margin: 0;
+    padding: 52px 57.1px 52px 57px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(
+      180deg,
+      rgba(26, 25, 25, 0.87) -20.26%,
+      rgba(26, 25, 25, 0) 100%
+    );
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+
+      button {
+        background: transparent;
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}
+
+.MovieInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 57px;
+  gap: 35vh;
+}
+
+.MovieLogo {
+  position: absolute;
+  top: 30.5vh;
+}
+
+.MovieType {
+  width: 10vw;
+}
+
+.Buttons {
+  width: 20vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.PlayButton {
+  width: 13vw;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  grid-column: 1 / 2;
+
+  border-radius: 8px;
+  img {
+    width: 30px;
+  }
+}
+
+.DateButton {
+  width: 15vw;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+  background: rgba(79, 79, 83, 0.82);
+  cursor: pointer;
+  grid-column: 2 / 3;
+
+  border-radius: 8px;
+  img {
+    width: 30px;
+  }
+}
+
+.GenderButton {
+  width: 10vw;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: rgba(79, 79, 83, 0.82);
+  cursor: pointer;
+  color: #fff;
+  grid-column: 1 / 3;
+
+  border-radius: 8px;
+  img {
+    width: 30px;
+  }
+}
+
+.FaixaEtaria {
+  display: flex;
+  align-items: center;
+  width: 6vw;
+  background: rgba(115, 107, 128, 0.7);
+  border-left: 2px solid #fff;
+  position: absolute;
+  right: 0;
+  bottom: 35%;
+
+  img {
+    margin-left: 1vw;
+  }
+}
